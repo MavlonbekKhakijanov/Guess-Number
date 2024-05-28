@@ -40,6 +40,7 @@ let chack = () => {
       input.disabled = true;
       textResult.textContent = "you are lose";
       body.classList.add("bg-red-700");
+      img.textContent = ranNum;
     }
     input.value = "";
   } else {
